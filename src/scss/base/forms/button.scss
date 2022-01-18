@@ -1,0 +1,19 @@
+//<BUTTONS (a.btn+tab)>
+// Снипет (HTML): btn
+
+.button {
+	display: inline-flex;
+	background: $mainButton;
+	border-radius: rem(6);
+	transition: box-shadow 0.3s ease 0s;
+	padding: rem(12) rem(32);
+	line-height: math.div(17,14);
+	@media (any-hover: hover) {
+		&:hover {
+			box-shadow: 0px 4px 25px $mainButton;
+		}
+	}
+	&._fw {
+		width: 100%;
+	}
+}
