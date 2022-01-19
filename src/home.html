@@ -6,7 +6,54 @@
 	<body>
 		<div class="wrapper">
 			@@include('html/_header.htm',{})
-			<main class="page">
+			<main class="page page-home">
+				<div class="page__main-block main-block">
+					<div class="main-block__container">
+						<div class="main-block__raw">
+						 	<div class="main-block__media main-media-block">
+								<div class="main-media-block__body">
+									<div class="main-media-block__image">
+										<!-- <img src="@img/topMain/student.png" alt="student"> -->
+									</div>
+									<div class="main-media-block__users users-invite">
+										<div class="users-invite__joined">
+											<img class="users-invite__joined-early users-invite__joined-early_1" src="@img/topMain/user1.jpg" alt="user">
+											<img class="users-invite__joined-early users-invite__joined-early_2" src="@img/topMain/user2.jpg" alt="user">
+											<img class="users-invite__joined-early users-invite__joined-early_3" src="@img/topMain/user3.jpg" alt="user">
+											<img class="users-invite__joined-early users-invite__joined-early_4" src="@img/topMain/user4.jpg" alt="user">
+											<button class="users-invite__joined-early users-invite__joined-early_5">+</button>
+										</div>
+										<p class="users-invite__text">More than 80k+ 
+											Students <a class="users-invite__link" href="">joined!</a></p>
+									</div>
+								</div>
+							 </div>
+							<div class="main-block__side side-main-block">
+								<h1 class="side-main-block__title title">Grow Your Skills To Advance Your Career Path.</h1>
+								<div class="side-main-block__text text">We have something big for you who want to level up!</div>
+								<div class="side-main-block__search">
+									<form class="search-main" action="#">
+										<input class="search-main__input" type="text" autocomplete="off" name="form[]" data-error="error" placeholder="What do you want to learn...">
+										<button class="search-main__button _icon-search" type="submit"></button>
+									</form>
+								</div>
+								<div class="side-main-block__category category-main-block">
+									<div class="category-main-block__text text">Suggestions</div>
+									<div class="category-main-block__link button-category">
+										<button class="button-category__item" type="button">UI UX Design</button>
+										<button class="button-category__item" type="button">CSS Fundamental</button>
+										<button class="button-category__item" type="button">3D Design Illustration</button>
+										<button class="button-category__item" type="button">Website Development</button>
+										<button class="button-category__item" type="button">Logo Design</button>
+									</div>
+								</div>
+					
+							</div>
+						</div>
+					</div>
+				</div>
+
+
 			</main>
 			@@include('html/_footer.htm',{})
 		</div>
