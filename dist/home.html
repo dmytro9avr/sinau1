@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<title>Главная</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20220220165423">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container">
+				<div class="header__wraper">
+					<a class="header__logo logo" href="">
+						<img class="logo__header" src="img/context/logo.svg" alt="logo">
+					</a>
+					<nav class="header__nav nav-header">
+						<ul class="nav-header__items">
+							<li class="nav-header__item"><a class="nav-header__link" href="">Home</a></li>
+							<li class="nav-header__item"><a class="nav-header__link" href="">Courses</a></li>
+							<li class="nav-header__item"><a class="nav-header__link" href="">Webinar</a></li>
+							<li class="nav-header__item"><a class="nav-header__link" href="">Pricing</a></li>
+						</ul>
+					</nav>
+					<div class="header__rside">
+						<div data-spollers class="header__lang lang">
+							<div class="spollers__item">
+								<button type="button" data-spoller class="lang__name lang__icon ">Eng</button>
+								<ul class="lang__list">
+									<li class="lang__list-item lang__list-item_active"><a class="lang__list-link" href="">Eng</a></li>
+									<li class="lang__list-item"><a class="lang__list-link" href="">Pl</a></li>
+									<li class="lang__list-item"><a class="lang__list-link" href="">Ru</a></li>
+									<li class="lang__list-item"><a class="lang__list-link" href="">Ukr</a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="header__user user">
+							<button class="button button__login" type="button" data-popup="#login">Login</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+		<main class="page page-home">
+			<div class="page__main-block main-block">
+				<div class="main-block__container">
+					<div class="main-block__raw">
+						<div class="main-block__media main-media-block">
+							<div class="main-media-block__body">
+								<div class="main-media-block__image">
+									<!-- <picture><source srcset="img/topMain/student.webp" type="image/webp"><img src="img/topMain/student.png" alt="student"></picture> -->
+									<ul class="dots">
+										<li class="dots_1"></li>
+										<li class="dots_2"></li>
+										<li class="dots_3"></li>
+										<li class="dots_4"></li>
+										<li class="dots_5"></li>
+										<li class="dots_6"></li>
+										<li class="dots_7"></li>
+									</ul>
+									<div class="pics">
+										<div class="pics__conf pics__book "><img src="img/context/book.svg" alt="idea"></div>
+										<div class="pics__conf pics__idea"><img src="img/context/idea.svg" alt="idea"></div>
+									</div>
+									<div class="main-media-block__users users-invite">
+										<div class="users-invite__joined">
+											<picture><source srcset="img/topMain/user1.webp" type="image/webp"><img class="users-invite__joined-early users-invite__joined-early_1" src="img/topMain/user1.jpg" alt="user"></picture>
+											<picture><source srcset="img/topMain/user2.webp" type="image/webp"><img class="users-invite__joined-early users-invite__joined-early_2" src="img/topMain/user2.jpg" alt="user"></picture>
+											<picture><source srcset="img/topMain/user3.webp" type="image/webp"><img class="users-invite__joined-early users-invite__joined-early_3" src="img/topMain/user3.jpg" alt="user"></picture>
+											<picture><source srcset="img/topMain/user4.webp" type="image/webp"><img class="users-invite__joined-early users-invite__joined-early_4" src="img/topMain/user4.jpg" alt="user"></picture>
+											<button class="users-invite__joined-early users-invite__joined-early_5">+</button>
+										</div>
+										<p class="users-invite__text">More than 80k+
+											Students <a class="users-invite__link" href="">joined!</a></p>
+									</div>
+								</div>
+
+							</div>
+						</div>
+						<div class="main-block__side side-main-block">
+							<h1 class="side-main-block__title title">Grow Your Skills To Advance Your Career Path.</h1>
+							<div class="side-main-block__text text">We have something big for you who want to level up!</div>
+							<div class="side-main-block__search">
+								<form class="search-main" action="#">
+									<input class="search-main__input" type="text" autocomplete="off" name="form[]" data-error="error" placeholder="What do you want to learn...">
+									<button class="search-main__button _icon-search" type="submit"></button>
+								</form>
+							</div>
+							<div class="side-main-block__category category-main-block">
+								<div class="category-main-block__text category-main-block__text-category text">Suggestions</div>
+								<div class="category-main-block__link button-category">
+									<button class="button-category__item" type="button">UI UX Design</button>
+									<button class="button-category__item" type="button">CSS Fundamental</button>
+									<button class="button-category__item" type="button">3D Design Illustration</button>
+									<button class="button-category__item" type="button">Website Development</button>
+									<button class="button-category__item" type="button">Logo Design</button>
+								</div>
+							</div>
+
+						</div>
+					</div>
+				</div>
+			</div>
+
+
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+			</div>
+		</footer>
+	</div>
+
+	<div id="login" aria-hidden="true" class="popup">
+		<div class="popup__wrapper">
+			<div class="popup__content">
+				<button data-close type="button" class="popup__close">Закрыть</button>
+				<div class="popup__text">
+					login
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<script src="js/app.min.js?_v=20220220165423"></script>
+</body>
+
+</html>
